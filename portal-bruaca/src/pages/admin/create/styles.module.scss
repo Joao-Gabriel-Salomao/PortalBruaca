@@ -1,0 +1,24 @@
+.create {
+    max-width: 1000px;
+    margin: 40px auto;
+
+    .title_item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            font-size: 24px;
+        }
+
+        button {
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 20px;
+            border: none;
+            color: white;
+            background-color: var(--cor-header);
+        }
+       
+    }
+}

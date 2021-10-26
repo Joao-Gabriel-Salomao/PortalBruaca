@@ -1,0 +1,141 @@
+.banner{
+    background: var(--green_faint);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.banner a img{   
+    margin-left:1rem ;
+    width: 85px;
+}
+
+.banner a img:hover{
+    -webkit-filter: opacity(0.9);
+    transition: 300ms;
+}
+
+.banner main{
+    display: flex;
+    align-items: center;
+}
+
+.banner main li{
+    margin-right: 4rem;
+    font-size: 1.2rem;
+    font-family: Archivo;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.banner main a{
+    color: white;
+}
+
+
+.banner main li a:hover{
+    padding-bottom:5px;
+    border-bottom: var(--green) 4px solid;
+    transition: color 300ms;
+}
+
+
+.navegacaoResponsiva{
+    display: none;
+    float: right;
+}
+
+.icon{
+    padding:0 15px 0 0;
+    right: 1%;
+    cursor: pointer;
+    float: right;
+    user-select: none;
+}
+
+
+
+.barra1, .barra2, .barra3{
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    margin: 6px 0;
+    -webkit-transition: .5s;
+    transition: .5s;
+    z-index: 2;
+}
+
+.menu.menuOpen {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    right: 0.5px;
+    overflow: hidden;
+    color: white;
+    z-index: 5;
+    position: absolute;
+    height: 80px;
+    transform:translate(0%,70%);
+    background-color: var(--green_faint);
+}
+
+.menu.menuOpen li{
+    padding: 0 0 30px 30px;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-family: Archivo;
+    font-weight: 600;
+    float: right;
+    text-align: right;
+}
+
+
+.icon.iconActive .barra2{
+    background: transparent;
+    box-shadow: 0 2px 5px transparent;
+}
+
+.icon.iconActive .barra1 {
+    top: 0;
+    background: #fff;
+    transform: rotate(-45deg) translate(-8px,3px);
+    box-shadow:  0 -2px 5px black;
+}
+
+.icon.iconActive .barra3{
+    top: 0;
+    background: #fff;
+    transform:rotate(45deg) translate(-8px,-4px);
+    box-shadow:  0 -2px 5px black;
+}
+
+
+.menu.menuClose{
+    display: none;
+    width: 0px;
+    
+}
+
+
+@media only screen and (max-width:850px){
+    .banner{
+        padding: 5px 0 5px 5px;
+        
+    }
+
+    .banner a img{   
+        width: 70px;
+        margin-left: 0;
+    }
+    
+
+    .navegacaoResponsiva{
+        display: block;
+    }
+
+    .navegaçãoDesktop{
+        display: none;
+    }
+}

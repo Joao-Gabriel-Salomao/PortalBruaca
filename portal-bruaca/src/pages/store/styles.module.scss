@@ -1,0 +1,47 @@
+.areaCards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 30%;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: var(--cor-header);
+    border-radius: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.descCard {
+    background-color: var(--cor-header);
+    text-align: center;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.descCard h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 300%;
+}
+
+.descCard p {
+    color: white;
+    font-size: 200%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.descCard a {
+    text-decoration: none;
+    color: white;
+}
+
+.descCard a:hover {
+    text-decoration: none;
+    color: #C29B6C;
+}

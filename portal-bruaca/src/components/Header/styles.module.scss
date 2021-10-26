@@ -1,0 +1,47 @@
+
+
+.headerContainer{
+    background-color: var(--cor-header);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'decorativa';
+
+    #titleHeader{
+        cursor: pointer;
+        color: var(--white);
+
+        img{
+            width: 120px;
+            padding-top: 15%;
+        }
+    }
+
+    #menuHeader{
+        align-self: flex-end;
+
+        ul{
+            list-style: none;
+            margin: 10px;
+
+            li{
+                display: inline;
+                margin-left: 20px;
+                
+
+                a{
+                    text-decoration: none;
+                    color: var(--gray-50);
+                    font-size: 180%;
+
+                    &:hover{
+                        color: var(--cor-hover-link);
+                        transition: 300ms;
+                    }
+                }
+
+            }
+
+        }
+    }
+}

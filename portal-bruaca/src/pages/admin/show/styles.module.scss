@@ -1,0 +1,120 @@
+.header {
+    margin: 5vh auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+
+    h2 {
+        font-size: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 15px;
+        font-size: 20px;
+        border: none;
+        color: white;
+        background-color: var(--cor-header);
+    }
+}
+
+
+.experience {
+    margin: 5vh auto;
+    max-width: 1000px;
+    background-color: #C29B6C;
+    border-radius: 20px;
+
+    img {
+        width: 100%;
+        height: 500px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .infos {
+        font-size: 300%;
+        color: white;
+        font-weight: bold;
+        margin: 30px 20px;
+        padding: 20px;
+        text-align: center;
+        font-family: 'decorativa';
+        border-radius: 5px;
+
+        background-color: #83643E;
+        
+
+        div:last-child {
+            font-size: 60%;
+            color: var(--gray-200);
+            margin-top: 10px;
+            font-weight: normal;
+        }
+    }
+
+    .contatos {
+
+        padding: 20px;
+
+        h2 {
+            font-size: 250%;
+            color: white;
+            font-family: 'decorativa';
+        }
+
+        .contato {
+
+            margin: 20px 0;
+
+            &:hover{
+                transition: 300ms;
+    
+                &:hover img{
+                    -webkit-filter: brightness(1) invert(0);
+                    cursor: pointer;
+                    transition: 200ms;
+                }
+    
+                &:hover a{
+                    color: var(--cor-header);
+                    transition: 300ms;
+                }
+            }
+
+            img {
+                width: 40px;
+                height: 40px;
+                margin-right:10px;
+                -webkit-filter: brightness(0) invert(1);
+                vertical-align: middle;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 130%;
+            }
+        }
+    }
+
+    .description {
+       padding: 20px;
+       max-width: 600px;
+        
+       h2 {
+            font-size: 250%;
+            color: white;
+            font-family: 'decorativa';
+            margin-bottom: 20px;
+       }
+
+       p {
+        font-size: 150%;
+        color: white;
+        font-family: 'padrao';
+        line-height: 30px;
+       }
+    }
+}

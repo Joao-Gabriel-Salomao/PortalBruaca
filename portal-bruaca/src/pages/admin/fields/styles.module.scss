@@ -1,0 +1,34 @@
+.item{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+
+    div:first-child{
+        padding-bottom: 5px;
+    }
+
+    div{
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    input, textarea{
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #DDDDDD;
+        font-size: 17px;
+        background-color: var(--gray-100);
+    }
+    
+
+    .textarea {
+        textarea{
+            max-width: 900px;
+        }
+        
+       
+    }
+}

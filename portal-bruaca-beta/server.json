@@ -1,0 +1,85 @@
+{
+    "experiences": [
+      {
+        "id": "1",      
+        "title": "Artesanatos de palha",
+        "responsible": "Portal Bruaca",
+        "image": "https://ik.imagekit.io/7ytzv3mljtc/img/artesanato_palha_RO2DwwVDPc.jpeg?updatedAt=1630157530152",
+        "whats": "(67) 99999-9999",
+        "email": "portalbruaca@gmail.com",
+        "description": "O processo de coleta das matérias primas, as técnicas tradicionais de tecelagem da palhas, a extração das pinturas, os traços simbólicos, entre outros, compreendem o imaginário da comunidade e o saber ancestral na atividade."
+      },
+      {
+        "id": "2",      
+        "title": "Artesanatos de Barro",
+        "responsible": "Portal Bruaca",
+        "image": "https://ik.imagekit.io/7ytzv3mljtc/img/artesanato_barro_41Y-oeUaxE.jpeg?updatedAt=1630157529053",
+        "whats": "(67) 99999-9999",
+        "email": "portalbruaca@gmail.com",
+        "description": "Essa atividade consiste na elaboração de artesanatos manuais, com características tipicamente indígenas. O processo de coleta das matérias primas, as técnicas tradicionais de tecelagem da palhas, a extração das pinturas, os traços simbólicos, entre outros."
+      },
+      {
+        "id": "3",      
+        "title": "Espelho d'água",
+        "responsible": "Portal Bruaca",
+        "image": "https://ik.imagekit.io/7ytzv3mljtc/img/espelho_dagua_T0DBGzh3k.jpeg?updatedAt=1630157531409",
+        "whats": "(67) 99999-9999",
+        "email": "portalbruaca@gmail.com",
+        "description": "Consiste na realização de um passeio de barco com um pescador. Sendo uma atividade costumeira, os pescadores e pescadoras possuem métodos e saberes próprios referentes a atividade, os locais propícios, os tipos de iscas, as épocas, o tempo de recria, a limpeza."
+      },
+      {
+        "id": "4",      
+        "title": "Caminhada do saber",
+        "responsible": "Portal Bruaca",
+        "image": "https://ik.imagekit.io/7ytzv3mljtc/img/caminhada_do_saber_3iPOS4iaaBc.jpeg?updatedAt=1630157531700",
+        "whats": "(67) 99999-9999",
+        "email": "portalbruaca@gmail.com",
+        "description": "Consiste na realização de visitas guiadas com pessoas das comunidades tradicionais do Pantanal: conhecer os saberes sobre a terra, as plantas e suas aplicações, os insetos, cuidados com o ambiente, cultura e ancestralidade."
+      },
+      {
+        "id": "5",      
+        "title": "Observação de aves",
+        "responsible": "Portal Bruaca",
+        "image": "https://ik.imagekit.io/7ytzv3mljtc/img/observacao_aves_dEFet01RR.jpeg?updatedAt=1630157530269",
+        "whats": "(67) 99999-9999",
+        "email": "portalbruaca@gmail.com",
+        "description": "Também denominado como “birdwatching”, consiste na realização de contemplação e registro fotográfico de aves que habitam as comunidades pantaneiras, e que muitas vezes, não acessam costumeiramente o ambiente urbano."
+      },
+      {
+        "id": "6",      
+        "title": "Wetland bike",
+        "responsible": "Portal Bruaca",
+        "image": "https://ik.imagekit.io/7ytzv3mljtc/img/wetland_bike_7lgdFCv99K.jpeg?updatedAt=1630157531450",
+        "whats": "(67) 99999-9999",
+        "email": "portalbruaca@gmail.com",
+        "description": "Através do reconhecimento mundial do pantanal pela sua biodiversidade, será oferecido uma atividade que combina o amor pela pedalada com a natureza."
+      },
+      {
+        "id": "7",      
+        "title": "Comida cultural",
+        "responsible": "Portal Bruaca",
+        "image": "https://ik.imagekit.io/7ytzv3mljtc/img/comida_cultural_ab3W78F3R.jpeg?updatedAt=1630157529936",
+        "whats": "(67) 99999-9999",
+        "email": "portalbruaca@gmail.com",
+        "description": "Contemplando-se a comida, em uma gastronomia genuinamente regional, são ofertados encontros com o saber alimentar cultural das comunidades."
+      },
+      {
+        "id": "8",      
+        "title": "Saberes da comunidadel",
+        "responsible": "Portal Bruaca",
+        "image": "https://ik.imagekit.io/7ytzv3mljtc/img/saberes_comunidades_JohxAHiKam.jpeg?updatedAt=1630157530435",
+        "whats": "(67) 99999-9999",
+        "email": "portalbruaca@gmail.com",
+        "description": "Através da indicação do participante, será possível o mesmo ter acesso a cursos práticos relacionados as comunidades, realizados pelos próprios membros."
+      },
+      {
+        "id": "9",      
+        "title": "Passeio a cavalo",
+        "responsible": "Portal Bruaca",
+        "image": "https://ik.imagekit.io/7ytzv3mljtc/img/passeio_cavalo_jpiccH6oy.jpeg?updatedAt=1630157531655",
+        "whats": "(67) 99999-9999",
+        "email": "portalbruaca@gmail.com",
+        "description": "Passeio a cavalo realizado com guia, ribeirinho ou índigena, por trilhas onde há a possibilidade de avistar animais."
+      }
+    ]
+  }

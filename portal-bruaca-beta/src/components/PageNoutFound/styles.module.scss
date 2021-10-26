@@ -1,0 +1,34 @@
+.container {
+    margin: 20vh auto;
+    max-width: 1000px;
+    font-family: 'padrao';
+    text-align: center;
+    border: 1px solid var(--cor-header);
+    padding: 5px;
+    border-radius: 5px;
+
+    h1 {
+        font-size: 24px;
+        color: var(--white);
+        padding: 10px;
+    }
+    
+    h2 {
+        font-size: 20px;
+        color: var(--white);
+        padding: 10px;
+    }
+    
+    p {
+        padding: 10px;
+        font-size: 18px;
+        color: var(--gray-50);
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 20px;
+    }
+}

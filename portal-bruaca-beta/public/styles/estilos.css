@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'decorativa';
+    src: url(../fonts/NewTegomin-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'padrao';
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+:root {
+    --cor-header: #a8512c;
+}
+
+body {
+    margin: 0;
+    background-color: #333;
+    font-family: 'padrao';
+}
+
+#header {
+    background-color: var(--cor-header);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'decorativa';
+}
+
+#tituloHeader img {
+    width: 100px;
+    padding-top: 15%;
+}
+
+#menu {
+    align-self: flex-end;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+}
+
+#menu a:hover {
+    color: #C29B6C;
+}
+
+#menuResponsivo {
+    display: none;
+}
+
+#carrossel {
+    background-color: #333;
+    position: relative;
+}
+
+#tituloPrincipal {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+#tituloPrincipal * {
+    text-shadow: 2px 2px black;
+}
+
+#tituloPrincipal img {
+    width: 80%;
+}
+
+#carrossel .glide__slide img {
+    width: 100%;
+    opacity: 0.4;
+}
+
+.faixa {
+    padding: 20px;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 10px;
+}
+
+.faixa:first-child {
+    margin-top: 0;
+}
+
+.faixa:nth-child(odd) {
+    background-color: #704F38;
+}
+
+.faixa:nth-child(odd) h1 {
+    background-color: #52392F;
+}
+
+.faixa:nth-child(even) {
+    background-color: #C29B6C;
+}
+
+.faixa:nth-child(even) h1 {
+    background-color: #83643E;
+}
+
+.faixa h1 {
+    text-align: center;
+    font-family: 'decorativa';
+    font-size: 500%;
+}
+
+.faixa p {
+    font-size: 150%;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.imagemCentralizada {
+    text-align: center;
+}
+
+.faixa img {
+    width: 40%;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 0.7s ease-in;
+}
+
+.faixa:hover img {
+    filter: grayscale(0%);
+}
+
+.areaCards,
+.areaCirculos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card {
+    width: 30%;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: #a8512c;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.descricaoCard {
+    background-color: #a8512c;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 200%;
+}
+
+.descricaoCard h3 {
+    color: white;
+    margin-top: 0;
+}
+
+.descricaoCard p {
+    color: white;
+    font-size: 80% !important;
+}
+
+.descricaoCard a {
+    text-decoration: none;
+    color: white;
+}
+
+.descricaoCard a:hover {
+    text-decoration: none;
+    color: #C29B6C;
+}
+
+.circuloImagem {
+    width: 20%;
+    text-align: center;
+}
+
+.circuloImagem img {
+    width: 80%;
+    border-radius: 0 !important;
+}
+
+#rodape {
+    background-color: #a8512c;
+    color: white;
+    font-family: 'decorativa';
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+#rodape span {
+    font-size: 150%;
+}
+
+@media only screen and (max-width: 600px) {
+    #menu {
+        display: none;
+    }
+
+    #menuResponsivo {
+        display: inline-block;
+        align-self: flex-end;
+        padding: 0;
+    }
+
+    #menuResponsivo ul {
+        list-style: none;
+        margin: 0;
+    }
+
+    #menuResponsivo li {
+        display: inline;
+        margin-left: 15px;
+        padding: 0;
+    }
+
+    #menuResponsivo a {
+        text-decoration: none;
+        color: white;
+        font-size: 150%;
+        padding: 0;
+    }
+
+    #menuResponsivo img {
+        width: 25px;
+    }
+
+    #menuResponsivo a:hover {
+        color: #C29B6C;
+    }
+
+    #header {
+        padding: 10px;
+    }
+
+    #tituloHeader img {
+        width: 80px;
+    }
+
+    #tituloPrincipal img {
+        width: 90%;
+    }
+
+    .faixa {
+        padding: 10px;
+    }
+
+    .faixa h1 {
+        font-size: 150%;
+    }
+
+    .faixa p {
+        font-size: 100%;
+    }
+
+    .faixa img {
+        width: 70%;
+    }
+
+    .areaCards,
+    .areaCirculos {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .descricaoCard {
+        font-size: 150%;
+    }
+
+    .areaCirculos {
+        text-align: center;
+    }
+
+    .circuloImagem {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    #rodape {
+        text-align: center;
+    }
+}

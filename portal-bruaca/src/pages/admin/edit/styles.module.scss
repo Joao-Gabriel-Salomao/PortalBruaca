@@ -1,0 +1,32 @@
+.edit {
+    margin: 5vh auto;
+    max-width: 1000px;
+
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button:first-child {
+            margin-right: 20px;
+            background-color: red;
+            
+        }
+
+        button {
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 20px;
+            border: none;
+            color: white;
+            background-color: var(--cor-header);
+
+        }
+        
+
+       
+    }
+
+
+}

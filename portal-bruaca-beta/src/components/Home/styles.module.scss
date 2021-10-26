@@ -1,0 +1,248 @@
+#carrousel {
+    position: relative;
+    margin: 20px 0;
+
+    #titleMain {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        z-index: 2;
+        text-align: center;
+        color: white;
+
+        * {
+            text-shadow: 2px 2px black;
+        }
+
+        img {
+            width: 80%;
+        }
+    }
+
+    .img {
+        opacity: 0.4;
+    }
+
+}
+
+
+ 
+
+
+#container {
+    color: white;
+
+    .faixa:nth-child(odd) {
+        background-color: #704F38;
+    }
+
+    .faixa:nth-child(odd) h1 {
+        background-color: #52392F;
+    }
+
+    .faixa:nth-child(even) {
+        background-color: #C29B6C;
+    }
+
+    .faixa:nth-child(even) h1 {
+        background-color: #83643E;
+    }
+
+
+    .faixa {
+        padding: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-top: 10px;
+
+
+        h1 {
+            text-align: center;
+            font-family: 'decorativa';
+            font-size: 500%;
+            margin: 40px 0;
+        }
+
+        p {
+            font-size: 170%;
+            text-indent: 30px;
+            text-align: justify;
+            margin: 20px 0;
+        }
+
+        .imgCentralizada {
+            text-align: center;
+        }
+
+        img {
+            width: 40%;
+            border-radius: 10px;
+            filter: grayscale(100%);
+            transition: all 0.7s ease-in;
+        }
+
+        :hover img {
+            filter: grayscale(0%);
+        }
+
+
+        .areasCards,
+        .areaCirculos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .card {
+            width: 30%;
+            border-radius: 10px;
+            margin: 30px;
+            background-color: #a8512c;
+            border-radius: 20px;
+
+            img {
+                width: 100%;
+                border-radius: 20px 20px 0px 0px;
+            }
+
+            .descricaoCard {
+                background-color: #a8512c;
+                text-align: center;
+                padding: 20px;
+                border-radius: 0px 0px 20px 20px;
+                font-size: 200%;
+
+                h3 {
+                    color: white;
+                    margin-top: 0;
+                }
+
+                p {
+                    color: white;
+                    font-size: 80% !important;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+
+                a:hover {
+                    text-decoration: none;
+                    color: #C29B6C;
+                }
+            }
+        }
+
+        .areaCirculos {
+
+            margin: 10px 0;
+
+            .circuloImg {
+                width: 20%;
+                text-align: center;
+
+                img {
+                    width: 80%;
+                    border-radius: 0;
+                }
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #carrousel {
+        margin: 10px 0;
+    
+        #titleMain {
+            img {
+                width: 90%;
+            }
+        }
+    
+        .img {
+            opacity: 0.4;
+        }
+    
+    }
+    
+    #container {
+       
+        .faixa {
+            padding: 10px;
+            margin-top: 10px;
+    
+    
+            h1 {
+                font-size: 150%;
+                margin: 10px 0;
+            }
+    
+            p {
+                font-size: 130%;
+                margin: 15px 0;
+            }
+    
+            .imgCentralizada {
+                text-align: center;
+            }
+    
+            img {
+                width: 80%;
+                border-radius: 5px;
+            }
+
+            .areasCards {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+    
+            .card {
+                width: 100%;
+                border-radius: 10px;
+                margin: 20px;
+                background-color: #a8512c;
+    
+                img {
+                    width: 100%;
+                    border-radius: 10px 10px 0px 0px;
+                }
+    
+                .descricaoCard {
+                    background-color: #a8512c;
+                    text-align: center;
+                    padding: 20px;
+                    border-radius: 0px 0px 20px 20px;
+                    font-size: 130%;
+                }
+            }
+    
+            .areaCirculos {
+    
+                margin: 10px 0;
+                flex-direction: column;
+    
+                .circuloImg {
+                    width: 80%;
+                    margin-bottom: 30px;
+    
+                    img {
+                        width: 70%;
+                        border-radius: 0;
+                    }
+                }
+            }
+    
+    
+        }
+    }
+    
+}

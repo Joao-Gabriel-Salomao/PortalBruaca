@@ -1,0 +1,138 @@
+.container_store {
+    background-color: var(--background);
+    margin: 5vh 20px;
+}
+
+.title_store {
+    margin-bottom: 10vh;
+}
+
+.title_store h1 {
+    font-size: 300%;
+    color: var(--title);
+    text-align: center;
+    margin: 1.5rem 0;
+    font-family: Poppins;
+}
+
+.cards_store {
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.cards_store .card {
+    box-shadow: 2px 2px 4px var(--text);
+    border-radius: 5px;
+}
+
+.cards_store .card .image img {
+    height: 18rem;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.cards_store .card .title {
+    color: var(--title);
+    padding: 1rem;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 600;
+    font-family: Poppins;
+}
+
+.cards_store .card .text {
+    color:var(--title2);
+    padding: 1rem;
+    text-align: left;
+    font-size: 140%;
+    font-family: Archivo;
+    font-weight: 600;
+}
+
+.cards_store .card .title_pagaments {
+    color: var(--title2);
+    text-align: left;
+    font-size: 140%;
+    padding: 1rem;
+    font-family: Archivo;
+    font-weight: 600;
+}
+
+.cards_store .card .pagaments {
+    display: flex;
+    justify-content: left;
+    padding: 0 1rem 1rem; 
+}
+
+.cards_store .card .pagaments img{
+    height: 50px;
+}
+
+.cards_store .card .pagaments img:nth-child(2) {
+    margin-left: 2rem;
+}
+
+.cards_store .card .pagaments img:nth-child(3) {
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width:850px) {
+    .container_store {
+        margin: 5vh 10px;
+    }
+    
+    
+    .title_store h1 {
+        font-size: 250%;
+        margin: 2rem 0;
+    }
+    
+    .cards_store {
+        display: block;
+    }
+    
+    .cards_store .card{
+        margin-bottom: 3rem;
+    }
+    
+    .cards_store .card .image img {
+        height: 16rem;
+        width: 100%;
+    }
+    
+    .cards_store .card .title {
+        padding: 1rem;
+        font-size: 180%;
+    }
+    
+    .cards_store .card .text {
+        padding: 1rem;
+        font-size: 140%;
+      
+    }
+    
+    .cards_store .card .title_pagaments {
+        font-size: 140%;
+        padding: 1rem;
+    }
+    
+    .cards_store .card .pagaments {
+        display: flex;
+        justify-content: left;
+        padding: 0 1rem 1rem; 
+    }
+    
+    .cards_store .card .pagaments img{
+        height: 45px;
+    }
+    
+    .cards_store .card .pagaments img:nth-child(2) {
+        margin-left: 2rem;
+    }
+    
+    .cards_store .card .pagaments img:nth-child(3) {
+        margin-left: 2rem;
+    }
+}

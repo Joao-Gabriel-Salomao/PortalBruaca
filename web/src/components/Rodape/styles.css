@@ -1,0 +1,144 @@
+.footer {
+    padding: 1rem;  
+    background: #053a11;
+}
+
+.footer .conteudo_rodape{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.footer .conteudo_rodape .local{
+  padding: 1rem;
+}
+
+.footer .conteudo_rodape .local p{
+    margin-top:1rem;
+    font-size: 120%;
+    color: #ccc;
+    
+}
+
+.footer .conteudo_rodape .local img{
+    width: 90px;
+}
+
+.footer .conteudo_rodape .local img:hover{
+    opacity: 0.5;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.footer .conteudo_rodape .end{
+    padding: 1rem;
+ 
+}
+
+.footer .conteudo_rodape .end .contato{
+    margin: 1rem;  
+    color: #ccc;
+    font-size: 120%;
+    font-family: Roboto;
+}
+
+.footer .conteudo_rodape .end .contato img{
+    width: 34px;
+    -webkit-filter: brightness(0) invert(1);
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.footer .conteudo_rodape .end .contato:hover img{
+    -webkit-filter: brightness(1) invert(0);
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.footer .conteudo_rodape .end .contato:hover a{
+    color: var(--green);
+    transition: 300ms;
+}
+
+.footer .conteudo_rodape .end .contato span:nth-child(3){
+    display: block;
+    text-indent: 33px;
+}
+
+.footer .conteudo_rodape .end .contato:hover span{
+    color: var(--green);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.footer .conteudo_rodape .redes {
+    padding: 1rem;
+}
+
+.footer .conteudo_rodape .redes img{
+    height:40px;
+    display: block;
+    margin: 1rem auto;
+    -webkit-filter: brightness(0) invert(2);
+}
+
+.footer .conteudo_rodape .redes img:hover{
+    cursor: pointer;
+    -webkit-filter: brightness(1) invert(0);
+    transition: 300ms;
+}
+
+
+@media only screen and (max-width:850px) {
+    .footer {
+        padding: 0.5rem;  
+        text-align: center;
+    }
+    
+    .footer .conteudo_rodape{
+        display: block;
+    }
+    
+    .footer .conteudo_rodape .local p{
+        margin-top:0.5rem;
+    }
+    
+    .footer .conteudo_rodape .local img{
+        width: 100px;
+    }
+    
+    .footer .conteudo_rodape .local img:hover{
+        opacity: 1;
+    }
+      
+    .footer .conteudo_rodape .end .contato{
+        margin: 10px;  
+        font-size: 110%;
+    }
+    
+    .footer .conteudo_rodape .end .contato img{
+        width: 30px;
+    }
+    
+    
+    .footer .conteudo_rodape .end .contato span:nth-child(3){
+        display: block;
+        text-indent: 33px;  
+    }
+    
+    .footer .conteudo_rodape .redes {
+        padding: 0.5rem;
+        display: flex;
+    }
+    
+    .footer .conteudo_rodape .redes img{
+        height: 40px;
+    }
+    
+    .footer .conteudo_rodape .redes img:hover{
+        cursor: pointer;
+        -webkit-filter: brightness(1) invert(0);
+        transition: 300ms;
+    }
+    
+}
